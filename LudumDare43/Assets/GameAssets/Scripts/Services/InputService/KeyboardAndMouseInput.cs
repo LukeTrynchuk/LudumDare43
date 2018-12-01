@@ -69,22 +69,22 @@ namespace DogHouse.Services
             m_movementVector.x = 0;
             m_movementVector.y = 0;
 
-            if(Input.GetKeyDown(m_movementUpKey))
+            if(Input.GetKey(m_movementUpKey))
             {
                 m_movementVector += Vector2.up;
             }
 
-            if (Input.GetKeyDown(m_movementLeftKey))
+            if (Input.GetKey(m_movementLeftKey))
             {
                 m_movementVector += Vector2.left;
             }
 
-            if (Input.GetKeyDown(m_movementDownKey))
+            if (Input.GetKey(m_movementDownKey))
             {
                 m_movementVector += Vector2.down;
             }
 
-            if (Input.GetKeyDown(m_movementRightKey))
+            if (Input.GetKey(m_movementRightKey))
             {
                 m_movementVector += Vector2.right;
             }

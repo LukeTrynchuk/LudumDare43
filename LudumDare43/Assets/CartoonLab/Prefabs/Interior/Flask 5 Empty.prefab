@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 460562}
   - component: {fileID: 3347276}
   - component: {fileID: 2379736}
+  - component: {fileID: 8095099762425119806}
   m_Layer: 0
   m_Name: Flask 5 Empty
   m_TagString: Untagged
@@ -78,3 +79,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8095099762425119806
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178254}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: eb37b894b2644dc48832948d983170bd, type: 3}

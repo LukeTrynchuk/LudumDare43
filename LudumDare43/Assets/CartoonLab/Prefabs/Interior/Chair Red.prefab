@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 442736}
   - component: {fileID: 3337316}
   - component: {fileID: 2313668}
+  - component: {fileID: 246878121778739942}
   m_Layer: 0
   m_Name: Chair Red
   m_TagString: Untagged
@@ -77,3 +78,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &246878121778739942
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156526}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: ebc868ba7007d234683753d572b3f899, type: 3}

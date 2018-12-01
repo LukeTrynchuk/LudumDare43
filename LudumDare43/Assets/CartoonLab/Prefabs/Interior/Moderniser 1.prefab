@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 411082}
   - component: {fileID: 3303918}
   - component: {fileID: 2335802}
+  - component: {fileID: 2193241194687677444}
   m_Layer: 0
   m_Name: Moderniser 2
   m_TagString: Untagged
@@ -77,6 +78,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &2193241194687677444
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110170}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.32546034, y: 0.046610106, z: 0.053820703}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &179496
 GameObject:
   m_ObjectHideFlags: 0
@@ -88,6 +102,7 @@ GameObject:
   - component: {fileID: 480232}
   - component: {fileID: 3342672}
   - component: {fileID: 2322426}
+  - component: {fileID: 3279093029787701912}
   m_Layer: 0
   m_Name: Moderniser 1
   m_TagString: Untagged
@@ -155,3 +170,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &3279093029787701912
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179496}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.026129924, y: 0.10169347, z: 0.118233114}
+  m_Center: {x: 0, y: 0, z: 0}

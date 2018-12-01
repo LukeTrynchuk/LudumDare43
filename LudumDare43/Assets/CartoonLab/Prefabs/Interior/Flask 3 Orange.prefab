@@ -88,6 +88,7 @@ GameObject:
   - component: {fileID: 419862}
   - component: {fileID: 3326028}
   - component: {fileID: 2306852}
+  - component: {fileID: 1812540266320427040}
   m_Layer: 0
   m_Name: Flask 3 Orange
   m_TagString: Untagged
@@ -156,3 +157,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1812540266320427040
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196212}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 8f872bde06a2a714fae9dcd0b8d5e5d9, type: 3}

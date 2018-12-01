@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 458780}
   - component: {fileID: 3398100}
   - component: {fileID: 2394190}
+  - component: {fileID: 2711510594916453917}
   m_Layer: 0
   m_Name: Pipe Green
   m_TagString: Untagged
@@ -77,3 +78,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2711510594916453917
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151168}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 075cc4d4042d27f43ac7be828926ab85, type: 3}

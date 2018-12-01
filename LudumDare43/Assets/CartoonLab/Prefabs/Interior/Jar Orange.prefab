@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 445204}
   - component: {fileID: 3388066}
   - component: {fileID: 2315910}
+  - component: {fileID: 8060588981271514300}
   m_Layer: 0
   m_Name: Jar Orange
   m_TagString: Untagged
@@ -77,3 +78,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8060588981271514300
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199116}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 44f2b6db6f0e3aa418fb130cde538d4e, type: 3}

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 480794}
   - component: {fileID: 3322226}
   - component: {fileID: 2372660}
+  - component: {fileID: 597012923066933609}
   m_Layer: 0
   m_Name: OD Stick Sep
   m_TagString: Untagged
@@ -77,3 +78,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &597012923066933609
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112516}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.08940303, y: 1.0153714, z: 0.085637555}
+  m_Center: {x: 0, y: 0, z: 0}

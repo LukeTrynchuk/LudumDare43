@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 435062}
   - component: {fileID: 3355242}
   - component: {fileID: 2330366}
+  - component: {fileID: 7310570061114436025}
   m_Layer: 0
   m_Name: Dart Red
   m_TagString: Untagged
@@ -77,3 +78,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &7310570061114436025
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142598}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.092251465, y: 0.092251465, z: 0.32647812}
+  m_Center: {x: -0.00024017692, y: 0.00012528524, z: -0.015765093}

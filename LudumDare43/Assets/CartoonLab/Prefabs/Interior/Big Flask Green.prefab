@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 412410}
   - component: {fileID: 3375572}
   - component: {fileID: 2361284}
+  - component: {fileID: 4541907128022158794}
   m_Layer: 0
   m_Name: Big Flask Green
   m_TagString: Untagged
@@ -78,3 +79,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!136 &4541907128022158794
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118290}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.29143196
+  m_Height: 0.8312484
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}

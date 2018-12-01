@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 406762}
   - component: {fileID: 3315810}
   - component: {fileID: 2335904}
+  - component: {fileID: 4441190762502709025}
   m_Layer: 0
   m_Name: Flask 4 Blue
   m_TagString: Untagged
@@ -79,3 +80,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4441190762502709025
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147842}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 8809d9271c26dea46ac039cf1c6bc9ca, type: 3}

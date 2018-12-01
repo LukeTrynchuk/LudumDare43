@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 443476}
   - component: {fileID: 3394034}
   - component: {fileID: 2364324}
+  - component: {fileID: 6284670273314400801}
   m_Layer: 0
   m_Name: Pen 2 Green
   m_TagString: Untagged
@@ -77,3 +78,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &6284670273314400801
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 104474}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.027911717, y: 0.024808962, z: 0.30009753}
+  m_Center: {x: 0, y: 0, z: 0}

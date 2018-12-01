@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 434570}
   - component: {fileID: 3368524}
   - component: {fileID: 2316444}
+  - component: {fileID: 804543302342273249}
   m_Layer: 0
   m_Name: Burner Stand
   m_TagString: Untagged
@@ -78,6 +79,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &804543302342273249
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128610}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: c9e31d281d9b9264ab17d10816935f9c, type: 3}
 --- !u!1 &188406
 GameObject:
   m_ObjectHideFlags: 0
@@ -89,6 +104,7 @@ GameObject:
   - component: {fileID: 481406}
   - component: {fileID: 3339414}
   - component: {fileID: 2371340}
+  - component: {fileID: 4555718493865935925}
   m_Layer: 0
   m_Name: Burner Full
   m_TagString: Untagged
@@ -158,3 +174,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4555718493865935925
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188406}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 4fe96db5a9d688348b77cfa4978cedf6, type: 3}

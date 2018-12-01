@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 453408}
   - component: {fileID: 3336098}
   - component: {fileID: 2362664}
+  - component: {fileID: 5441993473670865052}
   m_Layer: 0
   m_Name: Extinguisher
   m_TagString: Untagged
@@ -77,3 +78,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &5441993473670865052
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131306}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.71500385, y: 1.017689, z: 0.4082166}
+  m_Center: {x: 0, y: 0, z: 0}

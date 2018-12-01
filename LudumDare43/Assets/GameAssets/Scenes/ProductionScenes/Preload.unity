@@ -462,6 +462,7 @@ MonoBehaviour:
   m_movementRightKey: 100
   m_confirmKey: 121
   m_declineKey: 110
+  m_jumpKey: 32
 --- !u!1 &744666574
 GameObject:
   m_ObjectHideFlags: 0

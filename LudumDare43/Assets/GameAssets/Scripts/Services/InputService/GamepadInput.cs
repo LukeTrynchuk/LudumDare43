@@ -18,6 +18,7 @@ namespace DogHouse.General
         public event Action<Vector2> OnMovementVectorCalculated;
         public event Action OnConfirmButtonPressed;
         public event Action OnDeclineButtonPressed;
+        public event Action OnJumpButtonPressed;
         #endregion
 
         #region Main Methods
@@ -29,6 +30,7 @@ namespace DogHouse.General
             DetermineMovementVector();
             DetermineConfirmButtonPressed();
             DetermineDeclineButtonPressed();
+            DetermineJumpButtonPressed();
         }
 
         public void RegisterService()
@@ -77,6 +79,18 @@ namespace DogHouse.General
 #endif
 
             if (declineButton > 05f) OnDeclineButtonPressed?.Invoke();
+        }
+
+        private void DetermineJumpButtonPressed()
+        {
+            float jumpButton = 0f;
+#if UNITY_STANDALONE_WIN || UNITY_EDITOR_WIN
+            confirmButton = Input.GetAxis("JumpButton_WIN");
+#elif UNITY_STANDALONE_OSX || UNITY_EDITOR_OSX
+            jumpButton = Input.GetAxis("JumpButton_OSX");
+#endif
+
+            if (jumpButton > 05f) OnJumpButtonPressed?.Invoke();
         }
         #endregion
 

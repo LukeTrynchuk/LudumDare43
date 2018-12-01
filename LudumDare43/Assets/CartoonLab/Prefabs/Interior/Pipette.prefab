@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 451204}
   - component: {fileID: 3356196}
   - component: {fileID: 2397800}
+  - component: {fileID: 2727118130092071239}
   m_Layer: 0
   m_Name: Pipette
   m_TagString: Untagged
@@ -78,3 +79,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &2727118130092071239
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178548}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.12194922, y: 0.51518935, z: 0.12194922}
+  m_Center: {x: 0, y: 0, z: 0}

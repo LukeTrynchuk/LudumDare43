@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using DogHouse.Core.Services;
-using DogHouse.Services;
+﻿using DogHouse.Core.Services;
 using UnityEngine;
 using System;
 
@@ -18,5 +15,6 @@ namespace DogHouse.Services
         event Action<Vector2> OnMovementVectorCalculated;
         event Action OnConfirmButtonPressed;
         event Action OnDeclineButtonPressed;
+        event Action OnJumpButtonPressed;
     }
 }

@@ -15,6 +15,7 @@ namespace DogHouse.Services
         public event Action<Vector2> OnMovementVectorCalculated;
         public event Action OnConfirmButtonPressed;
         public event Action OnDeclineButtonPressed;
+        public event Action OnJumpButtonPressed;
         #endregion
 
         #region Private Variables
@@ -38,6 +39,9 @@ namespace DogHouse.Services
         [SerializeField]
         private KeyCode m_declineKey;
 
+        [SerializeField]
+        private KeyCode m_jumpKey;
+
         private Vector2 m_movementVector = new Vector2();
         #endregion
 
@@ -60,6 +64,7 @@ namespace DogHouse.Services
             CalculateMovementVector();
             DetectConfirmButtonPressed();
             DetectDeclineButtonPressed();
+            DetectJumpButtonPressed();
         }
         #endregion
 
@@ -109,6 +114,14 @@ namespace DogHouse.Services
             if(Input.GetKeyUp(m_declineKey))
             {
                 OnDeclineButtonPressed?.Invoke();
+            }
+        }
+
+        private void DetectJumpButtonPressed()
+        {
+            if (Input.GetKey(m_jumpKey))
+            {
+                OnJumpButtonPressed?.Invoke();
             }
         }
         #endregion

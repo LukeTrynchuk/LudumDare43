@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 404472}
   - component: {fileID: 3355720}
   - component: {fileID: 2323234}
+  - component: {fileID: 1376623740921763791}
   m_Layer: 0
   m_Name: Barrel Metal Yellow
   m_TagString: Untagged
@@ -77,3 +78,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1376623740921763791
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183722}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 46e3c75c3eafc95439cee19098124b54, type: 3}

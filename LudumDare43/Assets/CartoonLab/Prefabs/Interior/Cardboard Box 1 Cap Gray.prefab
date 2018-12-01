@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 494966}
   - component: {fileID: 3346164}
   - component: {fileID: 2319092}
+  - component: {fileID: 538543814758213167}
   m_Layer: 0
   m_Name: Cardboard Box 1 Cap Gray
   m_TagString: Untagged
@@ -77,3 +78,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &538543814758213167
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190428}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: d7f130803dee6da4cb72814453af9681, type: 3}

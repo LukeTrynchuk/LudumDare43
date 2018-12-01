@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 483002}
   - component: {fileID: 3321718}
   - component: {fileID: 2301882}
+  - component: {fileID: 1051665222555203689}
   m_Layer: 0
   m_Name: Barrel Plastic Green
   m_TagString: Untagged
@@ -77,3 +78,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1051665222555203689
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195992}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 452f7dfae6123a84fa5b49972ed9ee8a, type: 3}

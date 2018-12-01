@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 453906}
   - component: {fileID: 3335518}
   - component: {fileID: 2323444}
+  - component: {fileID: 8761211822734479811}
   m_Layer: 0
   m_Name: Flask 1 Brocken Green
   m_TagString: Untagged
@@ -78,3 +79,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8761211822734479811
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190096}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 55b253417bb1126428ab8816af8f3b44, type: 3}

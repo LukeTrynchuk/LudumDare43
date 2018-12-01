@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 441880}
   - component: {fileID: 3367552}
   - component: {fileID: 2323516}
+  - component: {fileID: 1151077572547000939}
   m_Layer: 0
   m_Name: Pipe Blue 30
   m_TagString: Untagged
@@ -77,3 +78,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1151077572547000939
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116788}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: beea26a10142de5428a1ec696121ab43, type: 3}

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 426876}
   - component: {fileID: 3393680}
   - component: {fileID: 2396146}
+  - component: {fileID: 435511398033824373}
   m_Layer: 0
   m_Name: Wide Table Orange
   m_TagString: Untagged
@@ -77,3 +78,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &435511398033824373
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154606}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 2f03d3e0a9a53624ba6127dad219f0d1, type: 3}

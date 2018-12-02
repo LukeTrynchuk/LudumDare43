@@ -25,16 +25,16 @@ public class SpawnChicken : MonoBehaviour
     {
         if (inputService.isRegistered())
         {
-
+            inputService.Reference.OnSpawnButtonPressed -= SpawnAChicken;
         }
     }
 
     private void RegisterInput()
     {
-
+        inputService.Reference.OnSpawnButtonPressed -= SpawnAChicken;
+        inputService.Reference.OnSpawnButtonPressed += SpawnAChicken;
     }
 
-    [Button("H")]
 
     private void SpawnAChicken()
     {

@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3098362143962150750
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3247295806816808269}
+    m_Modifications:
+    - target: {fileID: 1514088507403492, guid: 199203089b69340bab54caefab80d340, type: 3}
+      propertyPath: m_Name
+      value: mine_land
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582208646760928, guid: 199203089b69340bab54caefab80d340, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582208646760928, guid: 199203089b69340bab54caefab80d340, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582208646760928, guid: 199203089b69340bab54caefab80d340, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582208646760928, guid: 199203089b69340bab54caefab80d340, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582208646760928, guid: 199203089b69340bab54caefab80d340, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582208646760928, guid: 199203089b69340bab54caefab80d340, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582208646760928, guid: 199203089b69340bab54caefab80d340, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582208646760928, guid: 199203089b69340bab54caefab80d340, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582208646760928, guid: 199203089b69340bab54caefab80d340, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582208646760928, guid: 199203089b69340bab54caefab80d340, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582208646760928, guid: 199203089b69340bab54caefab80d340, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 199203089b69340bab54caefab80d340, type: 3}
+--- !u!1 &3097059249315240890 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1514088507403492, guid: 199203089b69340bab54caefab80d340,
+    type: 3}
+  m_PrefabInstance: {fileID: 3098362143962150750}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &3074827371849742052 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23763471487320506, guid: 199203089b69340bab54caefab80d340,
+    type: 3}
+  m_PrefabInstance: {fileID: 3098362143962150750}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4964283308586975348
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 9190215450260828528}
+      propertyPath: m_Name
+      value: Explosive_Prefab_MineLand_Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 906937426353954039}
+      propertyPath: m_graphicRenderer
+      value: 
+      objectReference: {fileID: 3074827371849742052}
+    - target: {fileID: 906937426353954039}
+      propertyPath: m_visualObject
+      value: 
+      objectReference: {fileID: 3097059249315240890}
+    - target: {fileID: 906937426353954039}
+      propertyPath: m_graphicRenderer
+      value: 
+      objectReference: {fileID: 3074827371849742052}
+    - target: {fileID: 906937426353954039}
+      propertyPath: m_visualObject
+      value: 
+      objectReference: {fileID: 3097059249315240890}
+    - target: {fileID: 8193427309691220639}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8193427309691220639}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8193427309691220639}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8193427309691220639}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8193427309691220639}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8193427309691220639}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8193427309691220639}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8193427309691220639}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8193427309691220639}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8193427309691220639}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8193427309691220639}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9190215450260828528}
+      propertyPath: m_Name
+      value: Explosive_Prefab_MineLand_Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4282528643875352836, guid: a8113a47d338640fcb8f73c6170bcdd3,
+        type: 3}
+      propertyPath: m_Name
+      value: Explosive_Prefab_MineLand_Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5220441174215482499, guid: a8113a47d338640fcb8f73c6170bcdd3,
+        type: 3}
+      propertyPath: m_graphicRenderer
+      value: 
+      objectReference: {fileID: 3074827371849742052}
+    - target: {fileID: 5220441174215482499, guid: a8113a47d338640fcb8f73c6170bcdd3,
+        type: 3}
+      propertyPath: m_visualObject
+      value: 
+      objectReference: {fileID: 3097059249315240890}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a8113a47d338640fcb8f73c6170bcdd3, type: 3}
+--- !u!1 &9190215450260828528 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4282528643875352836, guid: a8113a47d338640fcb8f73c6170bcdd3,
+    type: 3}
+  m_PrefabInstance: {fileID: 4964283308586975348}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8193427309691220639 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3841653925771703019, guid: a8113a47d338640fcb8f73c6170bcdd3,
+    type: 3}
+  m_PrefabInstance: {fileID: 4964283308586975348}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &906937426353954039 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5220441174215482499, guid: a8113a47d338640fcb8f73c6170bcdd3,
+    type: 3}
+  m_PrefabInstance: {fileID: 4964283308586975348}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9190215450260828528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a538d3d0c5ece4a7cadd2e0d0943cff9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &3247295806816808269 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7634757001575411001, guid: a8113a47d338640fcb8f73c6170bcdd3,
+    type: 3}
+  m_PrefabInstance: {fileID: 4964283308586975348}
+  m_PrefabAsset: {fileID: 0}

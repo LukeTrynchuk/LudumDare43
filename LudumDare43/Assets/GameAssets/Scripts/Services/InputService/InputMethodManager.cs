@@ -1,4 +1,7 @@
 ﻿using UnityEngine;
+using System.Linq;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace DogHouse.Services
 {
@@ -49,7 +52,10 @@ namespace DogHouse.Services
         private bool DetermineIfGamepadIsConnected()
         {
             string[] deviceNames = Input.GetJoystickNames();
-            return deviceNames.Length > 0;
+            List<string> deviceList = deviceNames.ToList();
+            deviceList = deviceList.Where(x => x.Length > 0).ToList();
+
+            return deviceList.Count > 0;
         }
 
         private void SetState(InputState state)

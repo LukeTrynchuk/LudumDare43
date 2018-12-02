@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3841653925771703019}
+  - component: {fileID: 5220441174215482499}
+  - component: {fileID: 6480727333562637701}
   m_Layer: 0
   m_Name: Explosive_Prefab
   m_TagString: Untagged
@@ -31,6 +33,41 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5220441174215482499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4282528643875352836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a538d3d0c5ece4a7cadd2e0d0943cff9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_explosionParticlePrefab: {fileID: 130346, guid: 07bf9ced87963e24299c2c2a22bfeeb6,
+    type: 3}
+  m_graphicRenderer: {fileID: 0}
+  m_animator: {fileID: 6480727333562637701}
+--- !u!95 &6480727333562637701
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4282528643875352836}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a53d75ff89f394ff1b273ab62dbce621, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7839577908213104877
 GameObject:
   m_ObjectHideFlags: 0

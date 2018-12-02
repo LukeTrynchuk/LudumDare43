@@ -97,7 +97,7 @@ Shader "Custom/Room FOW"
 }
 /*ASEBEGIN
 Version=15900
-0;75;1458;689;2435.074;784.3425;2.922462;True;True
+954;75;964;398;709.0782;6.959473;1;True;True
 Node;AmplifyShaderEditor.CommentaryNode;11;-1584.652,246.4457;Float;False;1152.36;334.4414;Get Depth Value;8;12;16;18;17;9;7;8;10;;1,1,1,1;0;0
 Node;AmplifyShaderEditor.GrabScreenPosition;10;-1514.135,293.9195;Float;False;0;0;5;FLOAT4;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.RangedFloatNode;8;-1241.034,296.4457;Float;False;Constant;_Float0;Float 0;0;0;Create;True;0;0;False;0;1;0;0;0;0;1;FLOAT;0
@@ -106,12 +106,12 @@ Node;AmplifyShaderEditor.SimpleSubtractOpNode;9;-1074.652,307.2613;Float;False;2
 Node;AmplifyShaderEditor.RangedFloatNode;17;-1030.982,398.2791;Float;False;Constant;_Float1;Float 1;1;0;Create;True;0;0;False;0;1;0;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.RangedFloatNode;18;-1024.982,474.2791;Float;False;Constant;_Float2;Float 2;1;0;Create;True;0;0;False;0;0;0;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.ConditionalIfNode;16;-795.9819,293.2791;Float;False;False;5;0;FLOAT;0;False;1;FLOAT;0.5;False;2;FLOAT;0;False;3;FLOAT;0;False;4;FLOAT;0;False;1;FLOAT;0
-Node;AmplifyShaderEditor.CommentaryNode;22;-393.0708,-27.87952;Float;False;754.5304;430.366;Final Color;5;20;14;15;21;19;;1,1,1,1;0;0
-Node;AmplifyShaderEditor.RegisterLocalVarNode;12;-635.6025,290.6774;Float;False;DepthValue;-1;True;1;0;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.CommentaryNode;6;-927.1077,-55.61998;Float;False;497.784;284.379;Screen Color Grab;2;5;3;;1,1,1,1;0;0
+Node;AmplifyShaderEditor.RegisterLocalVarNode;12;-635.6025,290.6774;Float;False;DepthValue;-1;True;1;0;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.CommentaryNode;22;-393.0708,-27.87952;Float;False;754.5304;430.366;Final Color;5;20;14;15;21;19;;1,1,1,1;0;0
 Node;AmplifyShaderEditor.GrabScreenPosition;5;-877.1077,-5.619966;Float;False;0;0;5;FLOAT4;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
-Node;AmplifyShaderEditor.RangedFloatNode;20;-343.0708,287.4865;Float;False;Property;_FogAmount;Fog Amount;1;0;Create;True;0;0;False;0;0;0;0;1;0;1;FLOAT;0
 Node;AmplifyShaderEditor.GetLocalVarNode;14;-267.9028,207.9648;Float;False;12;DepthValue;1;0;OBJECT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;20;-343.0708,287.4865;Float;False;Property;_FogAmount;Fog Amount;1;0;Create;True;0;0;False;0;0;0;0;1;0;1;FLOAT;0
 Node;AmplifyShaderEditor.ScreenColorNode;3;-632.487,-0.8263719;Float;False;Global;_GrabScreen0;Grab Screen 0;0;0;Create;True;0;0;False;0;Object;-1;False;False;1;0;FLOAT2;0,0;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.ColorNode;15;-297.4594,40.72574;Float;False;Property;_FogColor;Fog Color;0;0;Create;True;0;0;False;0;0,0,0,0;0,0,0,0;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;21;-17.73448,116.998;Float;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
@@ -132,4 +132,4 @@ WireConnection;19;1;15;0
 WireConnection;19;2;21;0
 WireConnection;2;2;19;0
 ASEEND*/
-//CHKSM=D0939E06BBA111A00FE484EA62B2D0092A34FA58
+//CHKSM=EB8B0E6E2AF16F2233A38AAF788DA476A77FCBD2

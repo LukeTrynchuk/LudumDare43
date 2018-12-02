@@ -16,5 +16,13 @@ namespace DogHouse.Services
         event Action OnConfirmButtonPressed;
         event Action OnDeclineButtonPressed;
         event Action OnJumpButtonPressed;
+        event Action OnSpawnButtonPressed;
+        event Action<GrabButtonState> OnGrabButtonStateChanged;
+    }
+
+    public enum GrabButtonState
+    {
+        PRESSED,
+        RELEASED
     }
 }

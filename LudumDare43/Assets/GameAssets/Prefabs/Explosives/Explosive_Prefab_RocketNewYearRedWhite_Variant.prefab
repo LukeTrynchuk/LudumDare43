@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1017804726361480501
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4326540638483599721}
+    m_Modifications:
+    - target: {fileID: 1073546759423904, guid: 259142de74a6642dfa33a6abd2641b86, type: 3}
+      propertyPath: m_Name
+      value: rocket_newyear_red_white
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765270942705226, guid: 259142de74a6642dfa33a6abd2641b86, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765270942705226, guid: 259142de74a6642dfa33a6abd2641b86, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765270942705226, guid: 259142de74a6642dfa33a6abd2641b86, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765270942705226, guid: 259142de74a6642dfa33a6abd2641b86, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765270942705226, guid: 259142de74a6642dfa33a6abd2641b86, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765270942705226, guid: 259142de74a6642dfa33a6abd2641b86, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765270942705226, guid: 259142de74a6642dfa33a6abd2641b86, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765270942705226, guid: 259142de74a6642dfa33a6abd2641b86, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765270942705226, guid: 259142de74a6642dfa33a6abd2641b86, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765270942705226, guid: 259142de74a6642dfa33a6abd2641b86, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765270942705226, guid: 259142de74a6642dfa33a6abd2641b86, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 259142de74a6642dfa33a6abd2641b86, type: 3}
+--- !u!1 &1016732021952846485 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1073546759423904, guid: 259142de74a6642dfa33a6abd2641b86,
+    type: 3}
+  m_PrefabInstance: {fileID: 1017804726361480501}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1030005729704584367 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23829443027270042, guid: 259142de74a6642dfa33a6abd2641b86,
+    type: 3}
+  m_PrefabInstance: {fileID: 1017804726361480501}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6196652660579335248
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7966999544387816788}
+      propertyPath: m_Name
+      value: Explosive_Prefab_RocketNewYearRedWhite_Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6966687261816786619}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6966687261816786619}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6966687261816786619}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6966687261816786619}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6966687261816786619}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6966687261816786619}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6966687261816786619}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6966687261816786619}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6966687261816786619}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6966687261816786619}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6966687261816786619}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2129170550782730451}
+      propertyPath: m_graphicRenderer
+      value: 
+      objectReference: {fileID: 1030005729704584367}
+    - target: {fileID: 2129170550782730451}
+      propertyPath: m_visualObject
+      value: 
+      objectReference: {fileID: 1016732021952846485}
+    - target: {fileID: 4282528643875352836, guid: a8113a47d338640fcb8f73c6170bcdd3,
+        type: 3}
+      propertyPath: m_Name
+      value: Explosive_Prefab_RocketNewYearRedWhite_Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5220441174215482499, guid: a8113a47d338640fcb8f73c6170bcdd3,
+        type: 3}
+      propertyPath: m_graphicRenderer
+      value: 
+      objectReference: {fileID: 1030005729704584367}
+    - target: {fileID: 5220441174215482499, guid: a8113a47d338640fcb8f73c6170bcdd3,
+        type: 3}
+      propertyPath: m_visualObject
+      value: 
+      objectReference: {fileID: 1016732021952846485}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a8113a47d338640fcb8f73c6170bcdd3, type: 3}
+--- !u!1 &7966999544387816788 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4282528643875352836, guid: a8113a47d338640fcb8f73c6170bcdd3,
+    type: 3}
+  m_PrefabInstance: {fileID: 6196652660579335248}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6966687261816786619 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3841653925771703019, guid: a8113a47d338640fcb8f73c6170bcdd3,
+    type: 3}
+  m_PrefabInstance: {fileID: 6196652660579335248}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2129170550782730451 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5220441174215482499, guid: a8113a47d338640fcb8f73c6170bcdd3,
+    type: 3}
+  m_PrefabInstance: {fileID: 6196652660579335248}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7966999544387816788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a538d3d0c5ece4a7cadd2e0d0943cff9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &4326540638483599721 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7634757001575411001, guid: a8113a47d338640fcb8f73c6170bcdd3,
+    type: 3}
+  m_PrefabInstance: {fileID: 6196652660579335248}
+  m_PrefabAsset: {fileID: 0}

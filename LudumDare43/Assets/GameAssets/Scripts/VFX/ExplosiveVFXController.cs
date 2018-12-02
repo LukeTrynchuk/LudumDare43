@@ -1,8 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using DogHouse.Core.Services;
-using DogHouse.Services;
-using UnityEngine;
+﻿using UnityEngine;
 using Sirenix.OdinInspector;
 
 namespace DogHouse.VFX
@@ -45,12 +41,12 @@ namespace DogHouse.VFX
             Invoke(nameof(FinishExploding), 8f);
         }
 
-        public void HideVisual()
+        private void HideVisual()
         {
             m_graphicRenderer.enabled = false;
         }
 
-        public void GenerateParticles()
+        private void GenerateParticles()
         {
             Debug.Log("GENERATING PARTICLES");
             GameObject vfx = Instantiate(m_explosionParticlePrefab);
@@ -58,7 +54,7 @@ namespace DogHouse.VFX
             vfx.transform.parent = m_visualObject.transform;
         }
 
-        public void FinishExploding()
+        private void FinishExploding()
         {
             m_state = EXPLOSION_VFX_STATE.FINISHED;
         }
@@ -66,6 +62,13 @@ namespace DogHouse.VFX
         private void Update()
         {
             SetExplosionValue();
+        }
+
+        private void OnDisable()
+        {
+            CancelInvoke(nameof(GenerateParticles));
+            CancelInvoke(nameof(HideVisual));
+            CancelInvoke(nameof(FinishExploding));
         }
         #endregion
 

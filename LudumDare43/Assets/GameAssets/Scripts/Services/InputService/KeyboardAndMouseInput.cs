@@ -43,6 +43,8 @@ namespace DogHouse.Services
         private KeyCode m_jumpKey;
 
         private Vector2 m_movementVector = new Vector2();
+
+        private bool m_jumpButtonPressed = false;
         #endregion
 
         #region Main Methods
@@ -121,9 +123,17 @@ namespace DogHouse.Services
         {
             if (Input.GetKey(m_jumpKey))
             {
-                Debug.Log("JUMP");
-                OnJumpButtonPressed?.Invoke();
+                if(!m_jumpButtonPressed) 
+                {
+                    OnJumpButtonPressed?.Invoke();
+                    Debug.Log("JUMP");
+                }
+
+                m_jumpButtonPressed = true;
+                return;
             }
+
+            m_jumpButtonPressed = false;
         }
         #endregion
     }

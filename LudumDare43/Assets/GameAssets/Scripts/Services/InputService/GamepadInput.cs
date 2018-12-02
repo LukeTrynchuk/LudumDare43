@@ -14,11 +14,15 @@ namespace DogHouse.General
     /// </summary>
     public class GamepadInput : MonoBehaviour, IInputService
     {
-        #region Private Variables
+        #region Public Variables
         public event Action<Vector2> OnMovementVectorCalculated;
         public event Action OnConfirmButtonPressed;
         public event Action OnDeclineButtonPressed;
         public event Action OnJumpButtonPressed;
+        #endregion
+
+        #region Private Variables
+        private bool m_jumpButtonDown = false;
         #endregion
 
         #region Main Methods
@@ -84,14 +88,26 @@ namespace DogHouse.General
         private void DetermineJumpButtonPressed()
         {
             float jumpButton = 0f;
-#if UNITY_STANDALONE_WIN || UNITY_EDITOR_WIN
-            jumpButton = Input.GetAxis("JumpButton_WIN");
-#elif UNITY_STANDALONE_OSX || UNITY_EDITOR_OSX
-            jumpButton = Input.GetAxis("JumpButton_OSX");
-#endif
-            if (jumpButton > 0.5f) Debug.Log("JUMP");
 
-            if (jumpButton > 0.5f) OnJumpButtonPressed?.Invoke();
+            #if UNITY_STANDALONE_WIN || UNITY_EDITOR_WIN
+            jumpButton = Input.GetAxis("JumpButton_WIN");
+            #elif UNITY_STANDALONE_OSX || UNITY_EDITOR_OSX
+            jumpButton = Input.GetAxis("JumpButton_OSX");
+            #endif
+
+            if(jumpButton > 0.5f)
+            {
+                if(!m_jumpButtonDown)
+                {
+                    OnJumpButtonPressed?.Invoke();
+                    Debug.Log("JUMP");
+                }
+
+                m_jumpButtonDown = true;
+                return;
+            }
+
+            m_jumpButtonDown = false;
         }
         #endregion
 

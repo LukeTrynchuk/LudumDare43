@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6159837283209887587}
   - component: {fileID: 179878107607802679}
   - component: {fileID: 2776342630346533629}
+  - component: {fileID: 6257151583622263164}
   m_Layer: 0
   m_Name: RoomFOW
   m_TagString: Untagged
@@ -52,7 +53,7 @@ MeshRenderer:
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
@@ -77,3 +78,18 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &6257151583622263164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873610290284201936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2beb033a585e4d46a2ac9fd7df1aca7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_transitionTime: 1
+  m_renderer: {fileID: 2776342630346533629}
+  m_state: 0

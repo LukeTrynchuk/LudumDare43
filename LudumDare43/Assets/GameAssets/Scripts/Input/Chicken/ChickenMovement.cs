@@ -46,6 +46,14 @@ public class ChickenMovement : MonoBehaviour
     private void Jump()
     {
         moveDir.y = jumpForce;
-        Debug.Log("Jump mother fucker");
+        myBody.Move(moveDir);
+    }
+
+    private void Update()
+    {
+        moveDir = new Vector3(0f, moveDir.y, 0f);
+        moveDir.y = moveDir.y + (Physics.gravity.y * Time.deltaTime * gravity);
+
+        myBody.Move(moveDir * Time.deltaTime * moveSpeed);
     }
 }

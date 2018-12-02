@@ -14,18 +14,17 @@ public class ChickenMovement : MonoBehaviour
     public float gravity;
     public float jumpForce;
 
-
     private void OnEnable()
     {
-        inputService.AddRegistrationHandle(RegisterIntput);
-        myBody = GetComponent<CharacterController>();
-
-        
+        inputService.AddRegistrationHandle(RegisterInput);
+        myBody = GetComponent<CharacterController>();   
     }
+
     private void Start()
     {
-        SpawnChicken(GameObject.FindGameObjectWithTag("Spawn"));
+        //SpawnChicken(GameObject.FindGameObjectWithTag("Spawn"));
     }
+    
     private void OnDisable()
     {
         if(inputService.isRegistered())
@@ -35,7 +34,7 @@ public class ChickenMovement : MonoBehaviour
         }
         
     }
-    private void RegisterIntput()
+    private void RegisterInput()
     {
         inputService.Reference.OnMovementVectorCalculated -= MoveChicken;
         inputService.Reference.OnMovementVectorCalculated += MoveChicken;
@@ -58,6 +57,7 @@ public class ChickenMovement : MonoBehaviour
 
     private void Update()
     {
+
         moveDir = new Vector3(0f, moveDir.y, 0f);
         moveDir.y = moveDir.y + (Physics.gravity.y * Time.deltaTime * gravity);
 

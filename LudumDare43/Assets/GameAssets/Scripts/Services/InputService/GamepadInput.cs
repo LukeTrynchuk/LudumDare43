@@ -20,11 +20,13 @@ namespace DogHouse.General
         public event Action OnDeclineButtonPressed;
         public event Action OnJumpButtonPressed;
         public event Action OnSpawnButtonPressed;
+        public event Action<GrabButtonState> OnGrabButtonStateChanged;
         #endregion
 
         #region Private Variables
         private bool m_jumpButtonDown = false;
         private bool m_spawnButtonDown = false;
+        private GrabButtonState m_grabButtonState = GrabButtonState.RELEASED;
         #endregion
 
         #region Main Methods
@@ -38,6 +40,7 @@ namespace DogHouse.General
             DetermineDeclineButtonPressed();
             DetermineJumpButtonPressed();
             DetermineSpawnButtonPressed();
+            DetermineGrabButtonPressed();
         }
 
         public void RegisterService()
@@ -134,6 +137,38 @@ namespace DogHouse.General
             }
 
             m_spawnButtonDown = false;
+        }
+
+        private void DetermineGrabButtonPressed()
+        {
+            float grabAmount = 0f;
+
+            #if UNITY_STANDALONE_WIN || UNITY_EDITOR_WIN
+            grabAmount = Input.GetAxis("GrabAxis_WIN");
+            #elif UNITY_STANDALONE_OSX || UNITY_EDITOR_OSX
+            grabAmount = Input.GetAxis("GrabAxis_OSX");
+            #endif
+
+            if (grabAmount > 0.5f)
+            {
+                if (m_grabButtonState == GrabButtonState.RELEASED)
+                {
+                    OnGrabButtonStateChanged?.Invoke(GrabButtonState.PRESSED);
+                }
+
+                m_grabButtonState = GrabButtonState.PRESSED;
+                return;
+            }
+
+            if(grabAmount < 0.5f)
+            {
+                if(m_grabButtonState == GrabButtonState.PRESSED)
+                {
+                    OnGrabButtonStateChanged?.Invoke(GrabButtonState.RELEASED);
+                }
+                m_grabButtonState = GrabButtonState.RELEASED;
+                return;
+            }
         }
         #endregion
     }

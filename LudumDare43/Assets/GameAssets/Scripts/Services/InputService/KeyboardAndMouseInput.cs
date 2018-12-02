@@ -17,6 +17,7 @@ namespace DogHouse.Services
         public event Action OnDeclineButtonPressed;
         public event Action OnJumpButtonPressed;
         public event Action OnSpawnButtonPressed;
+        public event Action<GrabButtonState> OnGrabButtonStateChanged;
         #endregion
 
         #region Private Variables
@@ -44,7 +45,10 @@ namespace DogHouse.Services
         private KeyCode m_jumpKey;
 
         [SerializeField]
-        private KeyCode m_spawnButton;
+        private KeyCode m_spawnKey;
+
+        [SerializeField]
+        private KeyCode m_grabKey;
 
         private Vector2 m_movementVector = new Vector2();
         #endregion
@@ -70,6 +74,7 @@ namespace DogHouse.Services
             DetectDeclineButtonPressed();
             DetectJumpButtonPressed();
             DetectSpawnButtonPressed();
+            DetectGrabButtonPressed();
         }
         #endregion
 
@@ -132,9 +137,22 @@ namespace DogHouse.Services
 
         private void DetectSpawnButtonPressed()
         {
-            if(Input.GetKeyDown(m_spawnButton))
+            if(Input.GetKeyDown(m_spawnKey))
             {
                 OnSpawnButtonPressed?.Invoke();
+            }
+        }
+
+        private void DetectGrabButtonPressed()
+        {
+            if(Input.GetKeyUp(m_grabKey))
+            {
+                OnGrabButtonStateChanged?.Invoke(GrabButtonState.RELEASED);
+            }
+
+            if(Input.GetKeyDown(m_grabKey))
+            {
+                OnGrabButtonStateChanged?.Invoke(GrabButtonState.PRESSED);
             }
         }
         #endregion

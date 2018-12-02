@@ -463,7 +463,8 @@ MonoBehaviour:
   m_confirmKey: 121
   m_declineKey: 110
   m_jumpKey: 32
-  m_spawnButton: 101
+  m_spawnKey: 101
+  m_grabKey: 113
 --- !u!1 &744666574
 GameObject:
   m_ObjectHideFlags: 0

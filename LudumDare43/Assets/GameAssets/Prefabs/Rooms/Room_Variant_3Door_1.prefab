@@ -1079,7 +1079,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6085099424807785661}
       propertyPath: m_Name
-      value: Room Variant3
+      value: Room_Variant_3Door_1
       objectReference: {fileID: 0}
     - target: {fileID: 6085099424807785660}
       propertyPath: m_LocalPosition.x
@@ -1149,16 +1149,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room Variant3
       objectReference: {fileID: 0}
-    - target: {fileID: 8830703812670428930, guid: 3e45eb63260258f4baa7e7dfa4223168,
-        type: 3}
+    - target: {fileID: 6085099424807785661}
       propertyPath: m_Name
       value: Room Variant3
       objectReference: {fileID: 0}
+    - target: {fileID: 8830703812670428930, guid: 3e45eb63260258f4baa7e7dfa4223168,
+        type: 3}
+      propertyPath: m_Name
+      value: Room_Variant_3Door_1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e45eb63260258f4baa7e7dfa4223168, type: 3}
---- !u!4 &6085099424807785660 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8830703812670428931, guid: 3e45eb63260258f4baa7e7dfa4223168,
+--- !u!1 &6085099424807785661 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8830703812670428930, guid: 3e45eb63260258f4baa7e7dfa4223168,
     type: 3}
   m_PrefabInstance: {fileID: 3386262697094054847}
   m_PrefabAsset: {fileID: 0}
@@ -1168,9 +1172,9 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3386262697094054847}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &6085099424807785661 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8830703812670428930, guid: 3e45eb63260258f4baa7e7dfa4223168,
+--- !u!4 &6085099424807785660 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8830703812670428931, guid: 3e45eb63260258f4baa7e7dfa4223168,
     type: 3}
   m_PrefabInstance: {fileID: 3386262697094054847}
   m_PrefabAsset: {fileID: 0}

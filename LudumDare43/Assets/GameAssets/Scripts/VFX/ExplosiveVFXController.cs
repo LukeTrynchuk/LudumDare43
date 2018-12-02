@@ -27,6 +27,9 @@ namespace DogHouse.VFX
         [SerializeField]
         private Animator m_animator;
 
+        [SerializeField]
+        private AudioSource m_audioSource;
+
         private EXPLOSION_VFX_STATE m_state = EXPLOSION_VFX_STATE.IDLE;
         #endregion
         
@@ -36,6 +39,7 @@ namespace DogHouse.VFX
         {
             m_state = EXPLOSION_VFX_STATE.EXPLODING;
             m_animator.SetTrigger("EXPLODE");
+            m_audioSource.Play();
             Invoke(nameof(GenerateParticles), 5.5f);
             Invoke(nameof(HideVisual), 5.5f);
             Invoke(nameof(FinishExploding), 8f);
@@ -48,7 +52,6 @@ namespace DogHouse.VFX
 
         private void GenerateParticles()
         {
-            Debug.Log("GENERATING PARTICLES");
             GameObject vfx = Instantiate(m_explosionParticlePrefab);
             vfx.transform.position = m_visualObject.transform.position;
             vfx.transform.parent = m_visualObject.transform;

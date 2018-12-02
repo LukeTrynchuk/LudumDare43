@@ -15,7 +15,7 @@ namespace DogHouse.Services
         [SerializeField]
         private GameObject m_gamepadService;
 
-        private InputState m_state;
+        private InputState m_state = InputState.KEYBOARD;
         #endregion
 
         #region Main Methods

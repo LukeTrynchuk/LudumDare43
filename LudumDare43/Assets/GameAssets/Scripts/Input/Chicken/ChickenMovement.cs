@@ -13,7 +13,7 @@ public class ChickenMovement : MonoBehaviour
     private Vector3 moveDir;
     public float gravity;
     public float jumpForce;
-    // Start is called before the first frame update
+   
     private void OnEnable()
     {
         inputService.AddRegistrationHandle(RegisterIntput);
@@ -24,6 +24,7 @@ public class ChickenMovement : MonoBehaviour
         if(inputService.isRegistered())
         {
             inputService.Reference.OnMovementVectorCalculated -= MoveChicken;
+            inputService.Reference.OnJumpButtonPressed -= Jump;
         }
         
     }
@@ -31,17 +32,20 @@ public class ChickenMovement : MonoBehaviour
     {
         inputService.Reference.OnMovementVectorCalculated -= MoveChicken;
         inputService.Reference.OnMovementVectorCalculated += MoveChicken;
+        inputService.Reference.OnJumpButtonPressed -= Jump;
+        inputService.Reference.OnJumpButtonPressed += Jump;   
     }
     private void MoveChicken(Vector2 move)
     {
         moveDir = new Vector3(move.x, 0f, move.y);
 
         moveDir.y = moveDir.y + (Physics.gravity.y * Time.deltaTime * gravity);
-        if()
-        {
-            moveDir.y = jumpForce;
-        }
+
         myBody.Move(moveDir * Time.deltaTime * moveSpeed);
     }
-
+    private void Jump()
+    {
+        moveDir.y = jumpForce;
+        Debug.Log("Jump mother fucker");
+    }
 }

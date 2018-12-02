@@ -347,10 +347,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chicken
       objectReference: {fileID: 0}
-    - target: {fileID: 1898086792725194, guid: 32e2f781a2330cd4195f380097665b5f, type: 3}
-      propertyPath: m_TagString
-      value: Chicken
-      objectReference: {fileID: 0}
     - target: {fileID: 4940420809344930, guid: 32e2f781a2330cd4195f380097665b5f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 28.92511
@@ -395,59 +391,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4936498906407775225, guid: 32e2f781a2330cd4195f380097665b5f,
+        type: 3}
+      propertyPath: chicken
+      value: 
+      objectReference: {fileID: 7480968406786570569, guid: e7925650cd0b4374b9e1448d6ff27ee7,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32e2f781a2330cd4195f380097665b5f, type: 3}
---- !u!1 &1110803131 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1898086792725194, guid: 32e2f781a2330cd4195f380097665b5f,
-    type: 3}
-  m_PrefabInstance: {fileID: 1110803130}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1110803132
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1110803131}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e39da937ffb5f644aa7ed591f1f3322, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 5
-  gravity: 20
-  jumpForce: 2
---- !u!143 &1110803133
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1110803131}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 0.59
-  m_Radius: 0.46
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0.38, z: 0}
---- !u!114 &1110803134
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1110803131}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39e8b8217fffb54498a69013fe6ad48b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1300564426
 GameObject:
   m_ObjectHideFlags: 0

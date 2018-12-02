@@ -347,6 +347,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chicken
       objectReference: {fileID: 0}
+    - target: {fileID: 1898086792725194, guid: 32e2f781a2330cd4195f380097665b5f, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4940420809344930, guid: 32e2f781a2330cd4195f380097665b5f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 28.92511

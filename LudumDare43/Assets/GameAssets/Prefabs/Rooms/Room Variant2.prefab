@@ -1627,6 +1627,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room Variant2
       objectReference: {fileID: 0}
+    - target: {fileID: 4560247320683837162}
+      propertyPath: m_Name
+      value: Room Variant2
+      objectReference: {fileID: 0}
     - target: {fileID: 4560247320683837163}
       propertyPath: m_LocalPosition.x
       value: 0

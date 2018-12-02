@@ -19,10 +19,12 @@ namespace DogHouse.General
         public event Action OnConfirmButtonPressed;
         public event Action OnDeclineButtonPressed;
         public event Action OnJumpButtonPressed;
+        public event Action OnSpawnButtonPressed;
         #endregion
 
         #region Private Variables
         private bool m_jumpButtonDown = false;
+        private bool m_spawnButtonDown = false;
         #endregion
 
         #region Main Methods
@@ -35,6 +37,7 @@ namespace DogHouse.General
             DetermineConfirmButtonPressed();
             DetermineDeclineButtonPressed();
             DetermineJumpButtonPressed();
+            DetermineSpawnButtonPressed();
         }
 
         public void RegisterService()
@@ -100,7 +103,6 @@ namespace DogHouse.General
                 if(!m_jumpButtonDown)
                 {
                     OnJumpButtonPressed?.Invoke();
-                    Debug.Log("JUMP");
                 }
 
                 m_jumpButtonDown = true;
@@ -109,7 +111,30 @@ namespace DogHouse.General
 
             m_jumpButtonDown = false;
         }
-        #endregion
 
+        private void DetermineSpawnButtonPressed()
+        {
+            float spawnAmount = 0f;
+
+            #if UNITY_STANDALONE_WIN || UNITY_EDITOR_WIN
+            spawnAmount = Input.GetAxis("SpawnButton_WIN");
+            #elif UNITY_STANDALONE_OSX || UNITY_EDITOR_OSX
+            spawnAmount = Input.GetAxis("SpawnButton_OSX");
+            #endif
+        
+            if(spawnAmount > 0.5f)
+            {
+                if(!m_spawnButtonDown)
+                {
+                    OnSpawnButtonPressed?.Invoke();
+                }
+
+                m_spawnButtonDown = true;
+                return;
+            }
+
+            m_spawnButtonDown = false;
+        }
+        #endregion
     }
 }

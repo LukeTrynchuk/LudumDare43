@@ -16,6 +16,7 @@ namespace DogHouse.Services
         public event Action OnConfirmButtonPressed;
         public event Action OnDeclineButtonPressed;
         public event Action OnJumpButtonPressed;
+        public event Action OnSpawnButtonPressed;
         #endregion
 
         #region Private Variables
@@ -32,7 +33,7 @@ namespace DogHouse.Services
         [SerializeField]
         private KeyCode m_movementRightKey;
 
-        [Header("Confirm / Decline Keys")]
+        [Header("Action Keys")]
         [SerializeField]
         private KeyCode m_confirmKey;
 
@@ -42,9 +43,10 @@ namespace DogHouse.Services
         [SerializeField]
         private KeyCode m_jumpKey;
 
-        private Vector2 m_movementVector = new Vector2();
+        [SerializeField]
+        private KeyCode m_spawnButton;
 
-        private bool m_jumpButtonPressed = false;
+        private Vector2 m_movementVector = new Vector2();
         #endregion
 
         #region Main Methods
@@ -67,6 +69,7 @@ namespace DogHouse.Services
             DetectConfirmButtonPressed();
             DetectDeclineButtonPressed();
             DetectJumpButtonPressed();
+            DetectSpawnButtonPressed();
         }
         #endregion
 
@@ -121,19 +124,18 @@ namespace DogHouse.Services
 
         private void DetectJumpButtonPressed()
         {
-            if (Input.GetKey(m_jumpKey))
+            if (Input.GetKeyDown(m_jumpKey))
             {
-                if(!m_jumpButtonPressed) 
-                {
-                    OnJumpButtonPressed?.Invoke();
-                    Debug.Log("JUMP");
-                }
-
-                m_jumpButtonPressed = true;
-                return;
+                OnJumpButtonPressed?.Invoke();
             }
+        }
 
-            m_jumpButtonPressed = false;
+        private void DetectSpawnButtonPressed()
+        {
+            if(Input.GetKeyDown(m_spawnButton))
+            {
+                OnSpawnButtonPressed?.Invoke();
+            }
         }
         #endregion
     }

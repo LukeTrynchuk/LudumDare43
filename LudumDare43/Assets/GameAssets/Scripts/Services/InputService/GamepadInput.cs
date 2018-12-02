@@ -73,7 +73,7 @@ namespace DogHouse.General
         {
             float declineButton = 0f;
             #if UNITY_STANDALONE_WIN || UNITY_EDITOR_WIN
-            confirmButton = Input.GetAxis("DeclineButton_WIN");
+            declineButton = Input.GetAxis("DeclineButton_WIN");
             #elif UNITY_STANDALONE_OSX || UNITY_EDITOR_OSX
             declineButton = Input.GetAxis("DeclineButton_OSX");
 #endif
@@ -85,7 +85,7 @@ namespace DogHouse.General
         {
             float jumpButton = 0f;
 #if UNITY_STANDALONE_WIN || UNITY_EDITOR_WIN
-            confirmButton = Input.GetAxis("JumpButton_WIN");
+            jumpButton = Input.GetAxis("JumpButton_WIN");
 #elif UNITY_STANDALONE_OSX || UNITY_EDITOR_OSX
             jumpButton = Input.GetAxis("JumpButton_OSX");
 #endif

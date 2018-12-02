@@ -121,6 +121,7 @@ namespace DogHouse.Services
         {
             if (Input.GetKey(m_jumpKey))
             {
+                Debug.Log("JUMP");
                 OnJumpButtonPressed?.Invoke();
             }
         }

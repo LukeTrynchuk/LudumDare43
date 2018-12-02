@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3314348}
   - component: {fileID: 2351062}
   - component: {fileID: 6495528247911851582}
+  - component: {fileID: 8275406590074103231}
   m_Layer: 0
   m_Name: Barrel Plastic Red
   m_TagString: Untagged
@@ -94,3 +95,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!64 &8275406590074103231
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162338}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 5e06468fe9cf57c428e8cc848394bbf5, type: 3}

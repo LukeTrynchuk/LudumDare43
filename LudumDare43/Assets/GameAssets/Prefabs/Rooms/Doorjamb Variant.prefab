@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!65 &4789728123413900109
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2580933099577189693}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9999995, y: 3.3000002, z: 0.24974349}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &2580933099577242053
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39,9 +52,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
       objectReference: {fileID: 0}
-    - target: {fileID: 2580933099579592189}
-      propertyPath: m_DynamicOccludee
-      value: 1
+    - target: {fileID: 2580933099577189693}
+      propertyPath: m_Name
+      value: Doorjamb Variant
       objectReference: {fileID: 0}
     - target: {fileID: 2580933099577189693}
       propertyPath: m_Name
@@ -54,6 +67,34 @@ PrefabInstance:
     - target: {fileID: 2580933099577189693}
       propertyPath: m_Name
       value: Doorjamb
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580933099577572885}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580933099577572885}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580933099577572885}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580933099577572885}
+      propertyPath: m_LocalRotation.w
+      value: -0.00000016292068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580933099577572885}
+      propertyPath: m_LocalPosition.x
+      value: -35.239998
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580933099577572885}
+      propertyPath: m_LocalPosition.z
+      value: 18.150002
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580933099577572885}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 2580933099577572885}
       propertyPath: m_LocalRotation.x
@@ -146,6 +187,10 @@ PrefabInstance:
     - target: {fileID: 2580933099577572885}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580933099579592189}
+      propertyPath: m_DynamicOccludee
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 120056, guid: b31218c243711894fa902ca3e10bdc14, type: 3}
       propertyPath: m_Name

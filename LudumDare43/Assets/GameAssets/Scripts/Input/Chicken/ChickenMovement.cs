@@ -13,11 +13,18 @@ public class ChickenMovement : MonoBehaviour
     private Vector3 moveDir;
     public float gravity;
     public float jumpForce;
-   
+
+
     private void OnEnable()
     {
         inputService.AddRegistrationHandle(RegisterIntput);
         myBody = GetComponent<CharacterController>();
+
+        
+    }
+    private void Start()
+    {
+        SpawnChicken(GameObject.FindGameObjectWithTag("Spawn"));
     }
     private void OnDisable()
     {
@@ -55,5 +62,10 @@ public class ChickenMovement : MonoBehaviour
         moveDir.y = moveDir.y + (Physics.gravity.y * Time.deltaTime * gravity);
 
         myBody.Move(moveDir * Time.deltaTime * moveSpeed);
+    }
+
+    private void SpawnChicken(GameObject spawnPoint)
+    {
+        this.transform.position = spawnPoint.transform.position;
     }
 }

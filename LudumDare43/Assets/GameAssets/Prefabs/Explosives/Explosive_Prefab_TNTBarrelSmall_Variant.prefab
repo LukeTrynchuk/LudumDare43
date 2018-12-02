@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1746998816015167045
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3213994237767978458}
+    m_Modifications:
+    - target: {fileID: 1856853548133228, guid: 903f5a659e8044fcbbdb5a6168e792ac, type: 3}
+      propertyPath: m_Name
+      value: tnt_barrel_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802293475457524, guid: 903f5a659e8044fcbbdb5a6168e792ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802293475457524, guid: 903f5a659e8044fcbbdb5a6168e792ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802293475457524, guid: 903f5a659e8044fcbbdb5a6168e792ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802293475457524, guid: 903f5a659e8044fcbbdb5a6168e792ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802293475457524, guid: 903f5a659e8044fcbbdb5a6168e792ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802293475457524, guid: 903f5a659e8044fcbbdb5a6168e792ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802293475457524, guid: 903f5a659e8044fcbbdb5a6168e792ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802293475457524, guid: 903f5a659e8044fcbbdb5a6168e792ac, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802293475457524, guid: 903f5a659e8044fcbbdb5a6168e792ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802293475457524, guid: 903f5a659e8044fcbbdb5a6168e792ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802293475457524, guid: 903f5a659e8044fcbbdb5a6168e792ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 903f5a659e8044fcbbdb5a6168e792ac, type: 3}
+--- !u!1 &1745161239358489897 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1856853548133228, guid: 903f5a659e8044fcbbdb5a6168e792ac,
+    type: 3}
+  m_PrefabInstance: {fileID: 1746998816015167045}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1759800464002211449 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23229487251976252, guid: 903f5a659e8044fcbbdb5a6168e792ac,
+    type: 3}
+  m_PrefabInstance: {fileID: 1746998816015167045}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5003074438523265251
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 9079508281996874215}
+      propertyPath: m_Name
+      value: Explosive_Prefab_TNTBarrelSmall_Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087961723775963656}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087961723775963656}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087961723775963656}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087961723775963656}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087961723775963656}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087961723775963656}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087961723775963656}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087961723775963656}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087961723775963656}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087961723775963656}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087961723775963656}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 944847894709271648}
+      propertyPath: m_graphicRenderer
+      value: 
+      objectReference: {fileID: 1759800464002211449}
+    - target: {fileID: 944847894709271648}
+      propertyPath: m_visualObject
+      value: 
+      objectReference: {fileID: 1745161239358489897}
+    - target: {fileID: 4282528643875352836, guid: a8113a47d338640fcb8f73c6170bcdd3,
+        type: 3}
+      propertyPath: m_Name
+      value: Explosive_Prefab_TNTBarrelSmall_Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5220441174215482499, guid: a8113a47d338640fcb8f73c6170bcdd3,
+        type: 3}
+      propertyPath: m_graphicRenderer
+      value: 
+      objectReference: {fileID: 1759800464002211449}
+    - target: {fileID: 5220441174215482499, guid: a8113a47d338640fcb8f73c6170bcdd3,
+        type: 3}
+      propertyPath: m_visualObject
+      value: 
+      objectReference: {fileID: 1745161239358489897}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a8113a47d338640fcb8f73c6170bcdd3, type: 3}
+--- !u!1 &9079508281996874215 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4282528643875352836, guid: a8113a47d338640fcb8f73c6170bcdd3,
+    type: 3}
+  m_PrefabInstance: {fileID: 5003074438523265251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8087961723775963656 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3841653925771703019, guid: a8113a47d338640fcb8f73c6170bcdd3,
+    type: 3}
+  m_PrefabInstance: {fileID: 5003074438523265251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &944847894709271648 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5220441174215482499, guid: a8113a47d338640fcb8f73c6170bcdd3,
+    type: 3}
+  m_PrefabInstance: {fileID: 5003074438523265251}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9079508281996874215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a538d3d0c5ece4a7cadd2e0d0943cff9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &3213994237767978458 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7634757001575411001, guid: a8113a47d338640fcb8f73c6170bcdd3,
+    type: 3}
+  m_PrefabInstance: {fileID: 5003074438523265251}
+  m_PrefabAsset: {fileID: 0}

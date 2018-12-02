@@ -89,8 +89,9 @@ namespace DogHouse.General
 #elif UNITY_STANDALONE_OSX || UNITY_EDITOR_OSX
             jumpButton = Input.GetAxis("JumpButton_OSX");
 #endif
+            if (jumpButton > 0.5f) Debug.Log("JUMP");
 
-            if (jumpButton > 05f) OnJumpButtonPressed?.Invoke();
+            if (jumpButton > 0.5f) OnJumpButtonPressed?.Invoke();
         }
         #endregion
 

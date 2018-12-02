@@ -8,14 +8,14 @@ public class SpawnFirstChicken : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GameObject c = GameObject.FindGameObjectWithTag("Chicken");
+        GameObject c = GameObject.FindGameObjectWithTag("Player");
         c.transform.position = this.transform.position;
     }
     private void Update()
     {
         if(!spawn)
         {
-            GameObject c = GameObject.FindGameObjectWithTag("Chicken");
+            GameObject c = GameObject.FindGameObjectWithTag("Player");
             c.transform.position = this.transform.position;
             spawn = true;
         }

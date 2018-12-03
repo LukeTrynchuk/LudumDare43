@@ -12,6 +12,7 @@ namespace DogHouse.VFX
         #region Public Variables
         [Range(0, 1)]
         public float m_explosionAmount;
+        public event System.Action OnExplodingFinished;
         #endregion
 
         #region Private Variables
@@ -48,6 +49,7 @@ namespace DogHouse.VFX
         private void HideVisual()
         {
             m_graphicRenderer.enabled = false;
+            OnExplodingFinished?.Invoke();
         }
 
         private void GenerateParticles()

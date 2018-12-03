@@ -23,7 +23,7 @@ public class TurretFire : MonoBehaviour
     {
         if(!fired)
         {
-            Debug.Log("Fire raycast");
+            
             RaycastHit hit;
 
             if (Physics.Raycast(transform.position, transform.forward, out hit, 10))

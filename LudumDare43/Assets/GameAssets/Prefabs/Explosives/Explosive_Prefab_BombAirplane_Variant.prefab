@@ -7,6 +7,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2871673374512196397}
+      propertyPath: m_graphicRenderer
+      value: 
+      objectReference: {fileID: 8460596684572994848}
+    - target: {fileID: 2871673374512196397}
+      propertyPath: m_visualObject
+      value: 
+      objectReference: {fileID: 8448710032055002366}
+    - target: {fileID: 6108597647246935722}
+      propertyPath: m_Name
+      value: Explosive_Prefab_BombAirplane_Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871673374512196397}
+      propertyPath: m_graphicRenderer
+      value: 
+      objectReference: {fileID: 8460596684572994848}
+    - target: {fileID: 2871673374512196397}
+      propertyPath: m_visualObject
+      value: 
+      objectReference: {fileID: 8448710032055002366}
     - target: {fileID: 6108597647246935722}
       propertyPath: m_Name
       value: Explosive_Prefab_BombAirplane_Variant
@@ -55,11 +75,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2871673374512196397}
+    - target: {fileID: 5220441174215482499, guid: a8113a47d338640fcb8f73c6170bcdd3,
+        type: 3}
       propertyPath: m_graphicRenderer
       value: 
       objectReference: {fileID: 8460596684572994848}
-    - target: {fileID: 2871673374512196397}
+    - target: {fileID: 5220441174215482499, guid: a8113a47d338640fcb8f73c6170bcdd3,
+        type: 3}
       propertyPath: m_visualObject
       value: 
       objectReference: {fileID: 8448710032055002366}
@@ -68,16 +90,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Explosive_Prefab_BombAirplane_Variant
       objectReference: {fileID: 0}
-    - target: {fileID: 5220441174215482499, guid: a8113a47d338640fcb8f73c6170bcdd3,
-        type: 3}
-      propertyPath: m_graphicRenderer
-      value: 
-      objectReference: {fileID: 8460596684572994848}
-    - target: {fileID: 5220441174215482499, guid: a8113a47d338640fcb8f73c6170bcdd3,
-        type: 3}
-      propertyPath: m_visualObject
-      value: 
-      objectReference: {fileID: 8448710032055002366}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8113a47d338640fcb8f73c6170bcdd3, type: 3}
 --- !u!1 &6108597647246935722 stripped
@@ -164,6 +176,11 @@ PrefabInstance:
     - target: {fileID: 4072759836188554, guid: 2e6d798f192e14108809c8f16b7c17b5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3334430558271650662, guid: 2e6d798f192e14108809c8f16b7c17b5,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e6d798f192e14108809c8f16b7c17b5, type: 3}

@@ -55,6 +55,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2490171820353931801, guid: df391ddc9be1f4c79af81859d30ad5fc,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df391ddc9be1f4c79af81859d30ad5fc, type: 3}
 --- !u!1 &2934879852500376791 stripped
@@ -76,10 +81,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4521856431194737527}
+      propertyPath: m_graphicRenderer
+      value: 
+      objectReference: {fileID: 2949825948096424203}
+    - target: {fileID: 4521856431194737527}
+      propertyPath: m_visualObject
+      value: 
+      objectReference: {fileID: 2934879852500376791}
     - target: {fileID: 5610639599515887344}
       propertyPath: m_Name
       value: Explosive_Prefab_MineWater_Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 4521856431194737527}
+      propertyPath: m_graphicRenderer
+      value: 
+      objectReference: {fileID: 2949825948096424203}
+    - target: {fileID: 4521856431194737527}
+      propertyPath: m_visualObject
+      value: 
+      objectReference: {fileID: 2934879852500376791}
     - target: {fileID: 4891520549137229087}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -124,16 +145,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4521856431194737527}
-      propertyPath: m_graphicRenderer
-      value: 
-      objectReference: {fileID: 2949825948096424203}
-    - target: {fileID: 4521856431194737527}
-      propertyPath: m_visualObject
-      value: 
-      objectReference: {fileID: 2934879852500376791}
-    - target: {fileID: 4282528643875352836, guid: a8113a47d338640fcb8f73c6170bcdd3,
-        type: 3}
+    - target: {fileID: 5610639599515887344}
       propertyPath: m_Name
       value: Explosive_Prefab_MineWater_Variant
       objectReference: {fileID: 0}
@@ -147,6 +159,11 @@ PrefabInstance:
       propertyPath: m_visualObject
       value: 
       objectReference: {fileID: 2934879852500376791}
+    - target: {fileID: 4282528643875352836, guid: a8113a47d338640fcb8f73c6170bcdd3,
+        type: 3}
+      propertyPath: m_Name
+      value: Explosive_Prefab_MineWater_Variant
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8113a47d338640fcb8f73c6170bcdd3, type: 3}
 --- !u!1 &5610639599515887344 stripped

@@ -1076,6 +1076,11 @@ MonoBehaviour:
   m_numberOfChannels: 20
   m_audioAssets:
   - {fileID: 11400000, guid: cbf38d5ecf21c4602abd47b34224a750, type: 2}
+  - {fileID: 11400000, guid: 0545c87d7ca2441daa0a9227c88516f9, type: 2}
+  - {fileID: 11400000, guid: 6feda2b194b3a457eb780a5804209e59, type: 2}
+  - {fileID: 11400000, guid: a18f5974bd5b14ce583822fc6b942969, type: 2}
+  - {fileID: 11400000, guid: c4a664e6d151e4ced8560a4795f72b4f, type: 2}
+  - {fileID: 11400000, guid: 9cc5083d6f6b0402c83c2bbc3228f4a1, type: 2}
   m_musicGroup: {fileID: 243537387327208256, guid: 56ae6e5dc7ee34025be0d15d54ddc9f6,
     type: 2}
   m_sfxGroup: {fileID: 243026467853416582, guid: 56ae6e5dc7ee34025be0d15d54ddc9f6,

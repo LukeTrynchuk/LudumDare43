@@ -7,6 +7,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6365064715237853321}
+      propertyPath: m_graphicRenderer
+      value: 
+      objectReference: {fileID: 5895220940086145872}
+    - target: {fileID: 6365064715237853321}
+      propertyPath: m_visualObject
+      value: 
+      objectReference: {fileID: 5874348669932981260}
     - target: {fileID: 3119132143778784526}
       propertyPath: m_Name
       value: Explosive_Prefab_BarrelExploding_Variant
@@ -55,11 +63,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3119132143778784526}
+      propertyPath: m_Name
+      value: Explosive_Prefab_BarrelExploding_Variant
+      objectReference: {fileID: 0}
     - target: {fileID: 6365064715237853321}
       propertyPath: m_graphicRenderer
       value: 
       objectReference: {fileID: 5895220940086145872}
     - target: {fileID: 6365064715237853321}
+      propertyPath: m_visualObject
+      value: 
+      objectReference: {fileID: 5874348669932981260}
+    - target: {fileID: 5220441174215482499, guid: a8113a47d338640fcb8f73c6170bcdd3,
+        type: 3}
+      propertyPath: m_graphicRenderer
+      value: 
+      objectReference: {fileID: 5895220940086145872}
+    - target: {fileID: 5220441174215482499, guid: a8113a47d338640fcb8f73c6170bcdd3,
+        type: 3}
       propertyPath: m_visualObject
       value: 
       objectReference: {fileID: 5874348669932981260}
@@ -68,16 +90,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Explosive_Prefab_BarrelExploding_Variant
       objectReference: {fileID: 0}
-    - target: {fileID: 5220441174215482499, guid: a8113a47d338640fcb8f73c6170bcdd3,
-        type: 3}
-      propertyPath: m_graphicRenderer
-      value: 
-      objectReference: {fileID: 5895220940086145872}
-    - target: {fileID: 5220441174215482499, guid: a8113a47d338640fcb8f73c6170bcdd3,
-        type: 3}
-      propertyPath: m_visualObject
-      value: 
-      objectReference: {fileID: 5874348669932981260}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8113a47d338640fcb8f73c6170bcdd3, type: 3}
 --- !u!1 &3119132143778784526 stripped
@@ -164,6 +176,11 @@ PrefabInstance:
     - target: {fileID: 4201429656805504, guid: d942939d3fc184316955eb4b0b3602ee, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010847862580907760, guid: d942939d3fc184316955eb4b0b3602ee,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d942939d3fc184316955eb4b0b3602ee, type: 3}

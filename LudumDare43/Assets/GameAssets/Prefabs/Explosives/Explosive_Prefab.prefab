@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6480727333562637701}
   - component: {fileID: 3121898403524344328}
   - component: {fileID: 5582503784967443790}
+  - component: {fileID: 2127489907600222519}
   m_Layer: 0
   m_Name: Explosive_Prefab
   m_TagString: Untagged
@@ -183,6 +184,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 5220441174215482499}
+--- !u!65 &2127489907600222519
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4282528643875352836}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.720496, y: 5.109766, z: 4.754833}
+  m_Center: {x: -0.07536459, y: 0.729167, z: 0.2801863}
 --- !u!1 &7839577908213104877
 GameObject:
   m_ObjectHideFlags: 0

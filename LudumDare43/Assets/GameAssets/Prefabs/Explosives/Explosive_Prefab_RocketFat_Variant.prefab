@@ -55,6 +55,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2613869032846308628, guid: e6917614ad0d446858abb40cd236494d,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6917614ad0d446858abb40cd236494d, type: 3}
 --- !u!1 &3026171117253191430 stripped
@@ -76,6 +81,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 517358193761178878}
+      propertyPath: m_graphicRenderer
+      value: 
+      objectReference: {fileID: 3003730465911328186}
+    - target: {fileID: 517358193761178878}
+      propertyPath: m_visualObject
+      value: 
+      objectReference: {fileID: 3026171117253191430}
     - target: {fileID: 8372794254175123833}
       propertyPath: m_Name
       value: Explosive_Prefab_RocketFat_Variant
@@ -88,6 +101,10 @@ PrefabInstance:
       propertyPath: m_visualObject
       value: 
       objectReference: {fileID: 3026171117253191430}
+    - target: {fileID: 8372794254175123833}
+      propertyPath: m_Name
+      value: Explosive_Prefab_RocketFat_Variant
+      objectReference: {fileID: 0}
     - target: {fileID: 8372794254175123833}
       propertyPath: m_Name
       value: Explosive_Prefab_RocketFat_Variant
@@ -136,11 +153,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4282528643875352836, guid: a8113a47d338640fcb8f73c6170bcdd3,
-        type: 3}
-      propertyPath: m_Name
-      value: Explosive_Prefab_RocketFat_Variant
-      objectReference: {fileID: 0}
     - target: {fileID: 5220441174215482499, guid: a8113a47d338640fcb8f73c6170bcdd3,
         type: 3}
       propertyPath: m_graphicRenderer
@@ -151,6 +163,11 @@ PrefabInstance:
       propertyPath: m_visualObject
       value: 
       objectReference: {fileID: 3026171117253191430}
+    - target: {fileID: 4282528643875352836, guid: a8113a47d338640fcb8f73c6170bcdd3,
+        type: 3}
+      propertyPath: m_Name
+      value: Explosive_Prefab_RocketFat_Variant
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8113a47d338640fcb8f73c6170bcdd3, type: 3}
 --- !u!1 &8372794254175123833 stripped

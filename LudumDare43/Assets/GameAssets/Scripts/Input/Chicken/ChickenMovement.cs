@@ -43,6 +43,7 @@ public class ChickenMovement : MonoBehaviour
     }
     private void MoveChicken(Vector2 move)
     {
+
         moveDir = new Vector3(move.x, 0f, move.y);
 
         moveDir.y = moveDir.y + (Physics.gravity.y * Time.deltaTime * gravity);

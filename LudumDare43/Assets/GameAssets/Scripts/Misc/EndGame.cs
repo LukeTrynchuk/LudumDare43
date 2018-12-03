@@ -10,7 +10,7 @@ public class EndGame : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Chicken")
+        if(other.tag == "Player")
         {
             if(sceneMan.isRegistered())
             {

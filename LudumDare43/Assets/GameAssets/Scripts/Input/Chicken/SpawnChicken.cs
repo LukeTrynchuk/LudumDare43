@@ -38,8 +38,10 @@ public class SpawnChicken : MonoBehaviour
 
     private void SpawnAChicken()
     {
+        Debug.Log("Spawn Chicken");
         if(chickenCounter < maxChicken)
         {
+            Debug.Log("Can Spawn Chicken");
             finalPosition = this.transform.position + (this.transform.forward * 3);
 
             GameObject c = Instantiate(chicken,this.transform.position,Quaternion.identity);
